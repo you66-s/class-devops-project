@@ -214,3 +214,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MLflow local data
+mlflow/mlflow.db
+mlflow/mlruns/
+ml/.gitignore
+
+# Python cache
+**/__pycache__/
+*.pyc
