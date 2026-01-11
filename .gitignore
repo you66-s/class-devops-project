@@ -214,3 +214,13 @@ __marimo__/
 test.py
 # Streamlit
 .streamlit/secrets.toml
+
+mlflow.db
+mlruns/
+vectorizer.pkl
+__pycache__/
+venv/
+.env
+# Python cache
+**/__pycache__/
+*.pyc

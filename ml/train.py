@@ -12,6 +12,21 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from config import Config
 from mlflow_manager import MLflowManager
 
+class Config:
+    # MLflow
+    MLFLOW_TRACKING_URI = "http://mlflow:5000"
+    EXPERIMENT_NAME = "spam-classification"
+    MODEL_NAME = "SpamClassifier"
+
+    # Data
+    DATA_PATH = "/data/spam.csv"
+
+    # Training
+    TEST_SIZE = 0.2
+    RANDOM_STATE = 42
+    MAX_FEATURES = 5000
+    MAX_ITER = 1000
+
 class SpamTrainer:
     def __init__(self):
         self.config = Config
