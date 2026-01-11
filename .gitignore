@@ -215,11 +215,12 @@ test.py
 # Streamlit
 .streamlit/secrets.toml
 
-# MLflow local data
-mlflow/mlflow.db
-mlflow/mlruns/
-ml/.gitignore
-
+mlflow.db
+mlruns/
+vectorizer.pkl
+__pycache__/
+venv/
+.env
 # Python cache
 **/__pycache__/
 *.pyc
